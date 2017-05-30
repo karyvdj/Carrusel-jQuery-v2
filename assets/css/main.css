@@ -1,9 +1,29 @@
+h2{
+  font-family: 'Dawning of a New Day', cursive;
+}
 img{
-  width: 500px;
+  width: 50%;
 }
 .carrusel-contenido{
   display:none;
 }
 .carrusel-contenido.active{
   display: block;
+}
+.control{
+  width: 20px;
+  height: 20px;
+  margin:10px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.control:hover{
+  background: #4db6ac;
+  border:0px;
+}
+
+.previous, .next{
+  color: white;
+  margin: 10px 30px;
 }
