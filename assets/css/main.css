@@ -1,0 +1,9 @@
+img{
+  width: 500px;
+}
+.carrusel-contenido{
+  display:none;
+}
+.carrusel-contenido.active{
+  display: block;
+}

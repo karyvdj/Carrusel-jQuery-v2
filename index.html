@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Carrusel con JS</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+  </head>
+  <body>
+    <div class="carrusel">
+      <div data-slide="0" class="carrusel-contenido active">
+        <img src="assets/img/1.jpg" alt="img1">
+      </div>
+      <div data-slide="1" class="carrusel-contenido">
+        <img src="assets/img/2.jpg" alt="img2">
+      </div>
+      <div data-slide="2" class="carrusel-contenido">
+        <img src="assets/img/3.jpg" alt="img3">
+      </div>
+      <div data-slide="3" class="carrusel-contenido">
+        <img src="assets/img/4.jpg" alt="img4">
+      </div>
+      <div data-slide="4" class="carrusel-contenido">
+        <img src="assets/img/5.jpg" alt="img5">
+      </div>
+    </div>
+
+    <section id="botones">
+      <a href="#" class="previous">&#10094;</a>
+      <button data-target="0" class="control" type="button"></button>
+      <button data-target="1" class="control" type="button"></button>
+      <button data-target="2" class="control" type="button"></button>
+      <button data-target="3" class="control" type="button"></button>
+      <button data-target="4" class="control" type="button"></button>
+      <a href="#" class="next">&#10095;</a>
+    </section>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
