@@ -3,6 +3,8 @@ h2{
 }
 img{
   width: 50%;
+  border-radius: 10px;
+  border: 10px solid white;
 }
 .carrusel-contenido{
   display:none;
@@ -20,7 +22,7 @@ img{
 }
 .control:hover{
   background: #4db6ac;
-  border:0px;
+  border: 1px solid #4db6ac;
 }
 
 .previous, .next{
